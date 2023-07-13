@@ -1,0 +1,1 @@
+export const userId = JSON.parse(localStorage.getItem('znz_website'))?.data?.user?.id

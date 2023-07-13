@@ -1,0 +1,346 @@
+.ml40{
+    padding-left: 40px;
+}
+.seller__page__contnr {
+    /* background: #f8f8f8; */
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+  }
+  .cards__container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+  .user__title {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 36px 0px;
+    margin: 0px 20px;
+  }
+  .user__title > h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+  
+    text-align: center;
+    text-transform: capitalize;
+  
+    color: #050505;
+  }
+  .user__title > h2 > span {
+    color: #ffc700;
+  }
+  
+  /* user profile card  */
+  .user__profile__card {
+    padding-top: 38px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .chat__card {
+    padding: 38px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .user__image {
+    position: relative;
+  }
+  .user__image > .image > img {
+    height: 50%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    vertical-align: center;
+  border-radius: 12px;
+  }
+  .user__camera {
+    width: 37px;
+    position: absolute;
+    top: 80%;
+    right: 20%;
+  }
+  .user__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .user__name > img {
+    width: 18px;
+  }
+  .user__name > .name {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    color: #6f6f6f;
+  }
+  .service_text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #6f6f6f;
+  }
+  .user_profile_sectn {
+    margin: 14px 0px 38px 0px;
+  }
+  
+  /* bank style  */
+  .bank_image {
+    background: url("/public/asserts/images/seller-page/dollar.png");
+    height: 80px;
+    width: 100px;
+  }
+  .bank__amount > h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #1e1d1c;
+    margin: 28px 0px 18px 0px;
+  }
+  .balance__tilte {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #888888 !important;
+    opacity: 0.8;
+  }
+  .seprator {
+    background: #4c4d4d;
+    opacity: 0.1;
+    height: 1px;
+    width: 100%;
+  }
+  .withdraw__sectn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  
+  .withdraw_btn {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  
+    color: #ffc700;
+  }
+  
+  /* help card  */
+  .help__desc_contnr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .help_image {
+    background: url("/public/asserts/images/seller-page/help.png");
+    height: 73px;
+    width: 100px;
+  }
+  .help__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #1e1d1c;
+  }
+  .help__desc {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #888888;
+    width: 247px;
+    max-width: 90%;
+  }
+  .chat__btn {
+    background: #ffc700;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+  }
+  .chat__btn > button {
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    border: none;
+  }
+  
+  /* account section  */
+  
+  .personal__detail__container {
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+    border-radius: 8px;
+    margin: 20px;
+  }
+  .title__section {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+  }
+  .title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25px;
+    align-items: center;
+    color: #1e1d1c;
+  }
+  .edit__btn > a > img {
+    color: #ffc107;
+    width: 16px;
+    height: 14px;
+  }
+  .edit__btn > a {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    text-transform: uppercase;
+  
+    color: #ffc107;
+  }
+  .user__nme {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 180% */
+  
+    display: flex;
+    align-items: center;
+  
+    /* #888888 */
+  
+    color: #888888;
+  }
+  .user__detail {
+    padding-left: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 11px;
+    margin-bottom: 28px;
+  }
+  .user {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+  
+    color: #4c4d4d;
+  }
+  
+  .personal__detail {
+    margin-top: 46px;
+  }
+  
+  /* active status btn  */
+  .active__status {
+    background: #ffc107;
+    border-radius: 8px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  
+    color: #ffffff;
+  }
+  .active__status > img {
+    width: 16px;
+    height: 16px;
+  }
+  
+  /* second section  */
+  
+  
+  
+  
+  /* resposiveness  */
+  @media (max-width: 1250px) and (min-width: 980px){
+      .bank__amount > h2 {
+      font-size: 24px;
+    }
+  }
+
+
+  
+  @media(max-width:500px){
+    .user__title > h2{
+      font-size: 32px;
+    }
+    .ml40{
+        padding-left: 0 !important;
+      }
+    .gigs__contnr{
+      padding: 12px;
+    }
+  }
+  @media(max-width:340px){
+    .user__title > h2{
+      font-size: 24px;
+    }
+    .gigs__contnr{
+      padding: 12px;
+    }
+  }
+  @media(max-width:340px){
+    .user__detail {
+      padding-left: 10px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      gap: 11px;
+      margin-bottom: 28px;
+    }
+  }
